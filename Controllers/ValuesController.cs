@@ -62,5 +62,12 @@ namespace NetCoreAPI_example.Controllers
             // insert to DB
             return "Done";
         }
+
+        [HttpPut]
+        public string ChangeProductName(string productName)
+        {
+            // update product name in DB
+            return "Update Product Name Done";
+        }
     }
 }
