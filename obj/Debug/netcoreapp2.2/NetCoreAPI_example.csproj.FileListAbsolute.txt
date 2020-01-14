@@ -1,0 +1,14 @@
+D:\visual2017WSP_NEW\NetCoreAPI_example\bin\Debug\netcoreapp2.2\NetCoreAPI_example.deps.json
+D:\visual2017WSP_NEW\NetCoreAPI_example\bin\Debug\netcoreapp2.2\NetCoreAPI_example.runtimeconfig.json
+D:\visual2017WSP_NEW\NetCoreAPI_example\bin\Debug\netcoreapp2.2\NetCoreAPI_example.runtimeconfig.dev.json
+D:\visual2017WSP_NEW\NetCoreAPI_example\bin\Debug\netcoreapp2.2\NetCoreAPI_example.dll
+D:\visual2017WSP_NEW\NetCoreAPI_example\bin\Debug\netcoreapp2.2\NetCoreAPI_example.pdb
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.csprojAssemblyReference.cache
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.csproj.CoreCompileInputs.cache
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.RazorAssemblyInfo.cache
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.RazorAssemblyInfo.cs
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.AssemblyInfoInputs.cache
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.AssemblyInfo.cs
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.RazorTargetAssemblyInfo.cache
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.dll
+D:\visual2017WSP_NEW\NetCoreAPI_example\obj\Debug\netcoreapp2.2\NetCoreAPI_example.pdb
