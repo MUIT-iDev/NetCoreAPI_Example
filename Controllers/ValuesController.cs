@@ -49,5 +49,11 @@ namespace NetCoreAPI_example.Controllers
         {
             return "Hello, World XXX";
         }
+
+        [HttpGet("{name}")]
+        public string Get(string name)
+        {
+            return "Hello, " + name;
+        }
     }
 }
