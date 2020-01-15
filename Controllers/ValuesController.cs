@@ -62,12 +62,13 @@ namespace NetCoreAPI_example.Controllers
         }
 
         [HttpPost]
-        public string CreateNewProduct([FromBody]Product data)
+        public Product CreateNewProduct([FromBody]Product data)
         {
-
             //insert new product to DB
+            //return "Create " + data.Name + " Done";
 
-            return "Create " + data.Name + " Done";
+            data.Id = 99;
+            return data;
         }
 
         [HttpPut]
