@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace NetCoreAPI_example.Controllers
 {
-    [Route("api/v1/[controller]/[action]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
-        [HttpGet]
-        public Product Get()
+        [HttpGet("{id}")]
+        public Product Get(int id)
         {
             return new Product
             {
-                Id = 111,
+                Id = id,
                 Name = "iAmYacul",
                 Price = 9999
             };
@@ -37,13 +37,20 @@ namespace NetCoreAPI_example.Controllers
             return data;
         }
 
-        [HttpPut]
-        public string ChangeProductName([FromBody]Product data)
+        [HttpPut("{id}")]
+        public string ChangeProductName([FromBody]Product data, int id)
         {
 
             //update product name in DB
 
-            return "Update Product Name " + data.Name + " Success";
+            return "Update Product Name " + data.Name + " where ID = " + id + " Success";
+        }
+
+        [HttpDelete("{id}")]
+        public string RemoveProduct(int id)
+        {
+            //delete product in DB
+            return "Removed Product ID: " + id;
         }
     }
 }
