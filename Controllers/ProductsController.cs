@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace NetCoreAPI_example.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/[controller]/[action]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -21,7 +21,7 @@ namespace NetCoreAPI_example.Controllers
             };
         }
 
-        [HttpGet("GetList")]
+        [HttpGet]
         public IEnumerable<Product> GetProducts()
         {
             return new List<Product>();
