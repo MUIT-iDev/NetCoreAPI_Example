@@ -45,9 +45,14 @@ namespace NetCoreAPI_example.Controllers
         */
 
         [HttpGet]
-        public string Get()
+        public Product Get()
         {
-            return "Hello, World XXX";
+            return new Product
+            {
+                Id = 111,
+                Name = "iAmYacul",
+                Price = 9999
+            };
         }
 
         [HttpGet("{name}")]
