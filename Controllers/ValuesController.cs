@@ -60,5 +60,23 @@ namespace NetCoreAPI_example.Controllers
         {
             return "Hello, " + name;
         }
+
+        [HttpPost("{productName}")]
+        public string CreateNewProduct(string productName)
+        {
+
+            //insert new product to DB
+
+            return "Create Done";
+        }
+
+        [HttpPut("{productName}")]
+        public string ChangeProductName(string productName)
+        {
+
+            //update product name in DB
+
+            return "Update Product Name Success";
+        }
     }
 }
