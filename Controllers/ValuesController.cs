@@ -70,13 +70,13 @@ namespace NetCoreAPI_example.Controllers
             return "Create " + data.Name + " Done";
         }
 
-        [HttpPut("{productName}")]
-        public string ChangeProductName(string productName)
+        [HttpPut]
+        public string ChangeProductName([FromBody]Product data)
         {
 
             //update product name in DB
 
-            return "Update Product Name Success";
+            return "Update Product Name " + data.Name + " Success";
         }
     }
 }
